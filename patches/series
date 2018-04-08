@@ -1,3 +1,4 @@
+000-ar71xx-tiny_reduce_kernelsize.patch
 002-add_ramips-nexx-image.patch
 004-openwrt-release_use_configured_revision.patch
 005-hostapd_nolegacy_by_default.patch
