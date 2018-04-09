@@ -12,10 +12,8 @@ diff --git a/target/linux/ar71xx/tiny/config-default b/target/linux/ar71xx/tiny/
 index 2e9031a24c..130a9085b1 100644
 --- a/target/linux/ar71xx/tiny/config-default
 +++ b/target/linux/ar71xx/tiny/config-default
-@@ -70,3 +70,6 @@ CONFIG_SOC_AR933X=y
+@@ -70,3 +70,4 @@ CONFIG_SOC_AR933X=y
  CONFIG_SOC_AR934X=y
  CONFIG_SOC_QCA953X=y
  CONFIG_SOC_QCA956X=y
 +CONFIG_PARTITION_ADVANCED=n
-+CONFIG_MSDOS_PARTITION=n
-+CONFIG_EFI_PARTITION=n
