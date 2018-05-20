@@ -1,5 +1,9 @@
 include config.mk
 
+ifneq ($(TARGET),ar71xx-mikrotik)
+$(error stopping build for $(TARGET))
+endif
+
 # get main- and subtarget name from TARGET
 MAINTARGET=$(word 1, $(subst -, ,$(TARGET)))
 SUBTARGET=$(word 2, $(subst -, ,$(TARGET)))
