@@ -70,7 +70,7 @@ alfred
 batctl
 
 # Uplink
-freifunk-berlin-uplink-notunnel-files
+# use built in uplink via network on WAN-port
 
 # Statistics
 luci-app-statistics
