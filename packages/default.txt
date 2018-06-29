@@ -4,14 +4,14 @@
 wpad
 
 # Defaults
-freifunk-berlin-dhcp-defaults
-freifunk-berlin-firewall-defaults
-freifunk-berlin-freifunk-defaults
-freifunk-berlin-network-defaults
-freifunk-berlin-olsrd-defaults
-freifunk-berlin-statistics-defaults
-freifunk-berlin-system-defaults
-freifunk-berlin-uhttpd-defaults
+#freifunk-berlin-dhcp-defaults
+#freifunk-berlin-firewall-defaults
+#freifunk-berlin-freifunk-defaults
+#freifunk-berlin-network-defaults
+#freifunk-berlin-olsrd-defaults
+#freifunk-berlin-statistics-defaults
+#freifunk-berlin-system-defaults
+#freifunk-berlin-uhttpd-defaults
 community-profiles
 
 # Common
@@ -33,15 +33,15 @@ uhttpd
 uhttpd-mod-ubus
 px5g-mbedtls
 libustream-mbedtls
-luci-app-ffwizard-berlin
-luci-mod-freifunk-ui
+#luci-app-ffwizard-berlin
+#luci-mod-freifunk-ui
 luci-app-olsr
 luci-app-firewall
 luci-app-olsr-services
-luci-app-owm
-luci-app-owm-ant
-luci-app-owm-cmd
-luci-app-owm-gui
+#luci-app-owm
+#luci-app-owm-ant
+#luci-app-owm-cmd
+#luci-app-owm-gui
 luci-theme-bootstrap
 # GUI addon
 luci-i18n-base-de
