@@ -7,7 +7,6 @@ cpe210-220-v1
 cpe510-520-v1
 DIR505A1
 gl-ar300
-gl-ar300m
 gl-ar750s
 gl-inet-6408A-v1
 gl-inet-6416A-v1
@@ -18,7 +17,6 @@ tl-wdr4310-v1
 tl-wr710n-v1
 tl-wr710n-v2.1
 tl-wr842n-v1
-tl-wr842n-v2
 tl-wr842n-v3
 tl-wr1043n-v5
 ubnt-air-gateway
@@ -32,5 +30,4 @@ ubnt-rocket-m-ti
 ubnt-rocket-m-xw
 ubnt-unifi-outdoor
 WZRHPG300NH2
-WZRHPAG300H
 WZR600DHP
