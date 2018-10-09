@@ -1,0 +1,14 @@
+diff --git a/include/prereq-build.mk b/include/prereq-build.mk
+index edd63e9ee6..3bf4e56c2f 100644
+--- a/include/prereq-build.mk
++++ b/include/prereq-build.mk
+@@ -128,6 +128,9 @@ $(eval $(call SetupHostCommand,stat,Cannot find a file stat utility, \
+ 	gstat -c%s $(TOPDIR)/Makefile, \
+ 	stat -c%s $(TOPDIR)/Makefile))
+ 
++$(eval $(call SetupHostCommand,zip,Please install 'zip', \
++	zip -h))
++
+ $(eval $(call SetupHostCommand,unzip,Please install 'unzip', \
+ 	unzip 2>&1 | grep zipfile, \
+ 	unzip))
