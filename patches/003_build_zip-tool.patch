@@ -36,12 +36,12 @@ index 0000000000..a7164aac80
 +
 +PKG_NAME:=zip
 +PKG_VERSION:=3.0
-+DL_FILE=zip30.tgz
++DL_FILE=zip30.tar.gz
 +
 +PKG_SOURCE:=$(DL_FILE)
 +#PKG_SOURCE_URL:=@SF/lzmautils \
 +#		http://tukaani.org/xz
-+PKG_SOURCE_URL:=ftp://ftp.info-zip.org/pub/infozip/src/
++PKG_SOURCE_URL:=@SF/infozip
 +PKG_HASH:=f0e8bb1f9b7eb0b01285495a2699df3a4b766784c1765a8f1aeedf63c0806369
 +#PKG_BUILD_DIR=zip30
 +
