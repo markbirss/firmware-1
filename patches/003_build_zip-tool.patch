@@ -58,7 +58,7 @@ index 0000000000..a7164aac80
 +endef
 +
 +define Host/Install
-+	+$(MAKE) $(HOST_JOBS) prefix=$(HOST_BUILD_PREFIX) -C $(HOST_BUILD_DIR) -f unix/Makefile install
++	+$(MAKE) $(HOST_JOBS) prefix=$(STAGING_DIR_HOST) -C $(HOST_BUILD_DIR) -f unix/Makefile install
 +endef
 +
 +$(eval $(call HostBuild))
