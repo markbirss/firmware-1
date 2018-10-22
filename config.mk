@@ -3,6 +3,6 @@ SHELL:=$(shell which bash)
 TARGET=ar71xx-generic
 PACKAGES_LIST_DEFAULT=default tunnel-berlin backbone
 OPENWRT_SRC=https://git.openwrt.org/openwrt/openwrt.git
-OPENWRT_COMMIT=0308385d1d78b81ae8fb05cb588fb91f646e3c37
+OPENWRT_COMMIT=bc3d47cd121baf85d53a3ee3f9d45df5ccf58f6f
 SET_BUILDBOT=env
 MAKE_ARGS=V=s
